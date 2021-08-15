@@ -39,18 +39,6 @@ window.addEventListener("load", function () {
                 <img src="${json[2].picture}" class="avatar">
              </ul>
              </div>
-            
-             <div class="astronaut">
-             <div class="bio">
-             <h3>${json[2].firstName} ${json[2].lastName}</h3>
-             <ul>
-                <li>Active status: ${json[2].active}</li>
-                <li>List of skills: ${json[2].skills}</li>
-                <li>Hours in Space: ${json[2].hoursInSpace}</li>
-                </div>
-                <img src="${json[2].picture}" class="avatar">
-             </ul>
-             </div>
 
              <div class="astronaut">
              <div class="bio">
